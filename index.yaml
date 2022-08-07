@@ -16,4 +16,15 @@ entries:
     urls:
     - https://github.com/adam-burns/helm-charts/releases/download/mychart-0.1.4/mychart-0.1.4.tgz
     version: 0.1.4
-generated: "2022-08-07T16:54:22.802644212Z"
+  zenflows:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-08-07T17:09:30.958059852Z"
+    description: A Helm chart for Kubernetes
+    digest: 456bcccbbe0dde3dac930a115e91c982db5b17c19461179e83a3b18ea2ebcfa0
+    name: zenflows
+    type: application
+    urls:
+    - https://github.com/adam-burns/helm-charts/releases/download/zenflows-0.1.0/zenflows-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-07T17:09:30.958066852Z"
