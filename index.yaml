@@ -19,6 +19,16 @@ entries:
   zenflows:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-08-07T17:37:34.066392427Z"
+    description: A Helm chart for Kubernetes
+    digest: be7f5b2bb1723b03b856210d4d3d7c1c0f88f407b2e4de91d27175e1a991141f
+    name: zenflows
+    type: application
+    urls:
+    - https://github.com/adam-burns/helm-charts/releases/download/zenflows-0.1.1/zenflows-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-08-07T17:09:30.958059852Z"
     description: A Helm chart for Kubernetes
     digest: 456bcccbbe0dde3dac930a115e91c982db5b17c19461179e83a3b18ea2ebcfa0
@@ -27,4 +37,4 @@ entries:
     urls:
     - https://github.com/adam-burns/helm-charts/releases/download/zenflows-0.1.0/zenflows-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-07T17:09:30.958066852Z"
+generated: "2022-08-07T17:37:34.066406429Z"
