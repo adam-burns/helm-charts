@@ -18,5 +18,3 @@ To install the zenflows chart:
 To uninstall the chart:
 
     helm delete my-zenflows
-
-The charts are published at https://adam-burns.github.io/helm-charts
