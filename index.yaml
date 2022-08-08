@@ -19,6 +19,21 @@ entries:
   zenflows:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-08-08T05:46:54.431843472Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.6.25
+    description: A Helm chart for Kubernetes
+    digest: 692b4cded941b13a3a5bff27e0d68dfd02fb0cec961870ec107ddc78b1d7892b
+    name: zenflows
+    type: application
+    urls:
+    - https://github.com/adam-burns/helm-charts/releases/download/zenflows-0.1.2/zenflows-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-08-07T17:37:34.066392427Z"
     description: A Helm chart for Kubernetes
     digest: be7f5b2bb1723b03b856210d4d3d7c1c0f88f407b2e4de91d27175e1a991141f
@@ -37,4 +52,4 @@ entries:
     urls:
     - https://github.com/adam-burns/helm-charts/releases/download/zenflows-0.1.0/zenflows-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-07T17:37:34.066406429Z"
+generated: "2022-08-08T05:46:54.431859672Z"
