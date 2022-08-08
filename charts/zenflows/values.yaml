@@ -5,8 +5,9 @@
 replicaCount: 1
 
 image:
-  repository: nginx
-  pullPolicy: IfNotPresent
+  repository: zenflows:latest
+  #pullPolicy: IfNotPresent
+  pullPolicy: never
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
