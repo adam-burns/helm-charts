@@ -1,7 +1,7 @@
 PROJECT := helm-charts
 
 cluster-up:
-	k3d cluster create mycluster2 -p "8081:80@loadbalancer" --agents 4 --wait --timeout 120s
+	k3d cluster create mycluster2 --port "8000:80@loadbalancer" --agents 4 --wait --timeout 120s
 
 cluster-down:
 	k3d cluster delete mycluster2
