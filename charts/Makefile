@@ -6,6 +6,13 @@ cluster-up:
 cluster-down:
 	k3d cluster delete mycluster2
 
+zenflows-up:
+	helm install interfacer zenflows
+	kubectl get nodes -o jsonpath="{.items[0].status.addresses[0].address}"
+
+zenflows-down:
+	helm delete zenflows
+
 todo-up:
 	helm install todo mychart
 	kubectl get nodes -o jsonpath="{.items[0].status.addresses[0].address}"
